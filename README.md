@@ -3,6 +3,8 @@ Avtor: Anej Širaj
 
 Podatke sem črpala s spletne strani:
 
+https://mangareader.to/
+
 Potrebni paketi so:
 
 requests, BeatifulSoup, csv in fake_useragent iz UserAgent(v primeru, da te spletna stran blokira zaradi uporabe programov)
