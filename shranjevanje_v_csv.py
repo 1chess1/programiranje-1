@@ -23,7 +23,8 @@ def shranjevanje_v_csv():
                                     imena1 = imena.readline().strip()
                                     if jezik1.strip() == "":
                                         break
-                                    writer.writerow({"id" : st_ostala, "imena": imena1, "žanri" : genres1, "jeziki": jezik1, "št poglavij": chapter_number1})
+                                    writer.writerow({"id" : st_ostala, "imena": imena1,
+                                                     "žanri" : genres1, "jeziki": jezik1, "št poglavij": chapter_number1})
                                     st_ostala += 1 
                                     
                                 
