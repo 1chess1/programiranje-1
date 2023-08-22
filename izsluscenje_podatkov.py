@@ -145,5 +145,5 @@ def v_volume_list(podatki): #zaradi pomankanja podatkov sem se kasneje odločil,
                 i += 1
 
 
-a = pobiranje_podatkov() #kodo samo poženeš
-#print(names(a))
+pobiranje_podatkov() #kodo samo poženeš
+
