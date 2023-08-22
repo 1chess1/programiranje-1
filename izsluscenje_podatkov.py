@@ -8,7 +8,7 @@ def pobiranje_podatkov():
         soup = BeautifulSoup(dat, 'html.parser')
         lists =soup.find_all('div', class_ = "manga-detail") 
         lists = izbris_duplikatov(lists)
-    with open("preverjanje.txt", "w") as test:  
+    with open("aktualni_podatki.txt", "w") as test:  
         i = 0
         for list in lists:
             test.write(str(list))
