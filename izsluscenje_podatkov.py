@@ -67,14 +67,14 @@ def genres(podatki):
             i = 0
             genres_pomozni = []
             
-    with open("genres.txt", "w") as dat:
-        i = 0
-        while i < len(genres):
-            
-            dat.write(str(genres[i])+'\n')
-            i += 1    
-    return genres
-def chapter_number(podatki):
+    with open("genres.txt", "w") as dat: #če želite lahko uporabite tudi kodo:
+        i = 0                                #novi_str=""
+        while i < len(genres):               #while i < len(genres):
+                                                 #novi_str = str(genres[i])
+            dat.write(str(genres[i])+'\n')       #novi_str = novi_str[1:len(novi_str)-1]
+            i += 1                               #dat.write(novi_str+'\n')
+    return genres                                #i += 1
+def chapter_number(podatki):                     #da se znebite "[]", ampak se jaz za to nisem odločil, ker se mi z "[]" zdi "lepše" 
     chap = []
     for podatek in podatki:
         try:
